@@ -1,7 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-body { background-image: url(02.jpg);}
+body {
+  background-image: url(02.jpg);
+}
 p {
   color: rgb(240, 248, 16);
   font-family: sans-serif;
@@ -23,9 +25,17 @@ ol {
   font-size: 20px;
   margin-top: 0cm;
 }
-ul {color: rgb(240, 248, 16);
-    font-size: 20px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin-top: 0cm;}
-.menu {padding: 0%;
-list-style: none;}
+ul {
+  color: rgb(240, 248, 16);
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 0cm;
+}
+.menu {
+  padding: 0%;
+  list-style: none;
+}
+.menu a:hover {
+  color: rgb(240, 248, 16);
+  background-color: rgb(83, 130, 155);
+}
