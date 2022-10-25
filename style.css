@@ -77,7 +77,6 @@ h1 {
   font-size: 50px;
   background-color: rgb(255, 255, 255);
   padding: 4px 30px;
-
 }
 #ЗЧОГОПОЧАТИ {
   background-color: rgba(89, 105, 40, 0.948);
@@ -100,7 +99,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 #ЗВЯЗОК {
   background-color: rgb(194, 199, 178);
@@ -119,4 +117,8 @@ h2 {
 }
 .hello {
   text-align: center;
+}
+.tiktok1 {
+  display: flex;
+  justify-content: space-around;
 }
