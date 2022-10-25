@@ -1,41 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 15px 32px;
+}
+.logo {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
 html {
   scroll-behavior: smooth;
 }
-body {
-  background-image: url(02.jpg);
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  justify-content: flex-end;
+
+  /* background-color: green; */
 }
-p {
-  color: rgb(240, 248, 16);
-  font-family: sans-serif;
-  font-size: 20px;
-  margin-top: 0%;
+.menu a {
+  color: white;
+  text-decoration: none;
+
+  background-color: transparent;
+  font-size: 14px;
+  padding: 4px 16px;
+  margin: 0px 11px;
+
+  border: 0px solid transparent;
+  border-radius: 16px;
+}
+
+.menu a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 234, 0);
+}
+#ЗЧОГОПОЧАТИ {
+  background-color: rgba(89, 105, 40, 0.948);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.START {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-image: url(02.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(240, 248, 16);
-}
-h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(240, 248, 16);
-  margin-bottom: 0cm;
-}
-ol {
-  color: rgb(240, 248, 16);
   font-family: sans-serif;
-  font-size: 20px;
-  margin-top: 0cm;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
 }
-ul {
-  color: rgb(240, 248, 16);
-  font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-top: 0cm;
+
+#ІНТЕРЕСИ {
+  background-color: rgb(194, 199, 178);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.menu {
-  padding: 0%;
-  list-style: none;
+#ТОМАС {
+  background-color: rgb(202, 235, 105);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.menu a:hover {
-  color: rgb(240, 248, 16);
-  background-color: rgb(83, 130, 155);
+#ЗВЯЗОК {
+  background-color: rgb(194, 199, 178);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
