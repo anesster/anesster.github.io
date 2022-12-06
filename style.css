@@ -10,6 +10,7 @@ body {
 .header {
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 
@@ -192,19 +193,10 @@ ol {
 
 #textabout {color: #ffffff;}
 
-.black-color:hover {
-  -webkit-filter: grayscale(99%); 
-  filter: grayscale(99%);
-}
-.black-color { 
-  transition: filter .7s ease-in-out;
-  -webkit-filter: grayscale(0%); 
-  siz
-  filter: grayscale(0%); 
-}
+
  
 #aboutme {
-  background-color: rgb(53, 44, 44);
+  background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
 
@@ -212,16 +204,80 @@ ol {
 
 
 
-.first1 {
-  line-height: 24px;
-  margin-right: 800px;
+.section1-text {
+  width: 600px;
 }
 
-.oneimg {height: 600px;
-margin-right: 80px;
-display: flex;
-flex-wrap: wrap;}
+.oneimg {
+  height: 600px;
+  margin-right: 80px;
+  filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
 
-.section1 img {
-  float: right; 
+.section1-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.oneimg:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+
+
+#social-footer { 
+  width: 100%; 
+  text-align: center; 
+  color: rgb(255, 255, 255); 
+  background-color: black; 
+} 
+ 
+#social-footer ul { 
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+} 
+ 
+#social-footer ul li { 
+  display: inline; 
+  padding: 5em; 
+} 
+ 
+#social-footer a { 
+/*  color: #939393 !important; */ 
+  color: rgb(255, 255, 255) !important; 
+} 
+footer { 
+  width: 100vw; 
+  bottom: 0; 
+  left: 0; 
+  padding: 1% 5%; 
+  text-align: center; 
+  background-color: #000; 
+  opacity: 1; 
+  z-index: 100; 
+   
+} 
+
+a.fa { 
+  text-decoration: none 
+} 
+ 
+a:link { 
+  text-decoration: none !important; 
+  outline: 0; 
+} 
+ 
+.fa-stack { 
+  margin: -2px; 
+} 
+.highlight { 
+  opacity: 0.6; 
+} 
+ 
+.highlight:hover { 
+  opacity: 1; 
 }
