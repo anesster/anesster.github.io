@@ -63,8 +63,13 @@ html {
 }
 
 .section {
+  display: flex;
   min-height: 100vh;
-  min-width: 100vh;
+  width: 100%;
+  /* align-items: center; */
+  font-size: 3em; /* 200% */
+  justify-content: center;
+  padding-top: 40px;
 }
 
 .START {
@@ -85,6 +90,7 @@ html {
   align-items: center;
 }
 
+
 #portfolio {
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -92,8 +98,9 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 #connection {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0)0);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,16 +123,7 @@ h2 {
 .hello {
   text-align: center;
 }
-.jobs {
-  display: flex;
-  flex-wrap: wrap;
 
-  justify-content: center;
-  align-items: center;
-  margin-top: -10px;
-  margin-bottom: 5px;
-  gap: 20px;
-}
 
 .text {
   flex-direction: column;
@@ -272,3 +270,28 @@ a:link {
 
 .menu .active a {color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);}
+
+
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-item {
+    flex-basis: 33%;
+  }
+  
+  .gallery a {
+    display: flex;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .lg-sub-html {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+  }

@@ -19,6 +19,13 @@
 
     <script src="https://use.fontawesome.com/11d9ee90c3.js"></script>
 
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"
+  />
+
+      <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     
@@ -58,7 +65,7 @@
           </p></div>
         </div>
         <div>
-          <img class="oneimg" src="10.jpg" />
+          <img class="oneimg" src="images/10.jpg" />
         </div>
       </div>
     </div>
@@ -76,14 +83,44 @@
 
     <div class="section" id="portfolio">
     <h2>МОЇ РОБОТИ?</h2>
-      <div class="jobs">
-<img class="img2" src="023323.jpg" />
-<img class="img2" src="02332.jpg" />
-<img class="img2" src="0233234.jpg" />
-<img class="img2" src="02333.jpg" />
-<img class="img2" src="0233236.jpg" />
-<img class="img2" src="02332368.jpg" />
-      </div></div></div>
+    <div class="gallery" id="lightgallery">
+
+      <div class="gallery-item">
+        <a href="023323.jpg" target="_blank">
+          <img class="img2" src="images/023323.jpg" alt="Календар 2022: «Невидимі шрами війни: згасання дитинства»." />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="02332.jpg" target="_blank">
+          <img class="img2" src="images/02332.jpg" alt="Книга: «Спокій у кожному кроці» Автор: Тхіть Ньят Хань." />
+        </a>
+      </div>
+  
+      <div class="gallery-item">
+        <a href="0233234.jpg" target="_blank">
+          <img class="img2" src="images/0233234.jpg" alt="Воркшоп: декоративні наліпки на фрукти." />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="02333.jpg" target="_blank">
+          <img class="img2" src="images/02333.jpg" alt="Дизай упакування: для бренду «Hobby Monster»" />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="0233236.jpg" target="_blank">
+          <img class="img2" src="images/0233236.jpg" alt="Плакат: для коворкінгу «Іdeя" />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="02332368.jpg" target="_blank">
+          <img class="img2" src="images/02332368.jpg" alt="Упакування: чай для «Хліб з маслом»" />
+        </a>
+      </div></div>  
+
 
   <div class="section" id="connection">
   <h2>ЗВ'ЯЗОК? </h2>
@@ -91,9 +128,9 @@
     Трішки відео з мого життя та соц. мереж моїх друзів </p>
   <div>
     <video width="270px" controls>
-      <source src="0001.mp4" type="video/mp4" />
+      <source src="video/0001.mp4" type="video/mp4" />
     </video><video width="270px" controls>
-      <source src="0003.mp4" type="video/mp4" />
+      <source src="video/0003.mp4" type="video/mp4" />
     </video>
   </div>
   <footer id='social-footer'> 
@@ -131,7 +168,19 @@
     var ms = new MenuSpy(elm);
   </script>
 
-  <script src="script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+
+<script type="text/javascript">
+  lightGallery(document.getElementById("lightgallery"), {
+    selector: ".gallery-item a",
+  });
+</script>
+  
+<script src="script.js"></script>
+
+
+  
   </body>
 </html>
 
