@@ -49,3 +49,19 @@ function consoleText(words, id, colors) {
   }, 400)
 }
 
+
+
+
+
+
+function onVideoPause(videoId) {
+  const video = document.getElementById(videoId);
+  video.style.filter = 'grayscale(100%)';
+  video.style.webkitFilter = 'grayscale(100%)';
+}
+
+function onVideoPlaying(videoId) {
+  const video = document.getElementById(videoId)
+  video.style.filter = 'none';
+  video.style.webkitFilter = 'none';
+}

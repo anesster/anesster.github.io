@@ -132,11 +132,11 @@
         Трішки відео з мого життя </p>
       <div>
         
-    <video width="260px" controls>
-      <source src="video/0001.mp4" type="video/mp4" />
-    </video><video width="260px" controls>
-      <source src="video/0003.mp4" type="video/mp4" />
-    </video>
+        <video id="video1" controls onplay="onVideoPlaying('video1')" onpause="onVideoPause('video1')">
+          <source src="video/0001.mp4" type="video/mp4" />
+        </video><video controls id="video2" onplay="onVideoPlaying('video2')" onpause="onVideoPause('video2')">
+          <source src="video/0003.mp4" type="video/mp4"/>
+        </video>
   </div></div>
   <footer id='social-footer'> 
     <ul> 

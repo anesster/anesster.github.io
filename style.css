@@ -320,5 +320,6 @@ div .blokvideo {position: relative;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     padding: 1px;
+    width: 270px;
   }
   
