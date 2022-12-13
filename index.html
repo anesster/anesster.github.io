@@ -14,8 +14,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <meta property="og:image" content="https://anesster.github.io/003.jpg" />
-    <meta name="description" content="Найскладніше для мене – це розповісти про себе що-небудь об’єктивне, але я постараюся.?)))" />
+    <meta property="og:image" content="https://anesster.github.io/003.jpg"/>
+    <meta name="description" content="Найскладніше для мене – це розповісти про себе що-небудь об’єктивне, але я постараюся.?" />
 
     <script src="https://use.fontawesome.com/11d9ee90c3.js"></script>
 
@@ -25,7 +25,6 @@
     <div class="header">
       <div class="navbar">
         <a class="logo" href="#top">ANESSTER</a>
-        <ul class="menu">
     <ul class="menu">
       <li>
         <a href="#aboutme">ПРО МЕНЕ</a>
@@ -126,12 +125,13 @@
 
 </div>
 
-
-
-
-
-  
+<script src="https://cdn.jsdelivr.net/npm/menuspy@latest/dist/menuspy.min.js"></script>
+<script>
+    var elm = document.querySelector(".header .menu");
+    var ms = new MenuSpy(elm);
+  </script>
 
   <script src="script.js"></script>
   </body>
 </html>
+
