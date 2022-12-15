@@ -80,10 +80,10 @@ html {
   justify-content: center;
   align-items: center;
   background-position: center center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   backface-visibility: hidden;
-  animation: slideBg 11s linear infinite 0s;
+  animation: slideBg 10s linear infinite s;
   animation-timing-function: ease-in-out;
   background-image: url(./slideshow/31.jpg);
 }
@@ -113,7 +113,6 @@ html {
   justify-content: center;
   align-items: center;
 }
-
 
 #portfolio {
   background-color: rgb(0, 0, 0);
@@ -149,11 +148,9 @@ h2 {
   text-align: center;
 }
 
-
 .text {
   flex-direction: column;
 }
-
 
 ul {
   margin-top: -10px;
@@ -219,7 +216,7 @@ ol {
 .img2 {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
- width: 25%;
+  width: 25%;
 }
 .img2:hover {
   filter: none;
@@ -231,8 +228,6 @@ ol {
   flex-direction: row;
   justify-content: space-evenly;
 }
-
-
 
 #social-footer {
   width: 100%;
@@ -287,63 +282,67 @@ a:link {
   opacity: 1;
 }
 
-.menu .active a {color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);}
+.menu .active a {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.gallery-item {
+  flex-basis: 33%;
+}
 
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .gallery-item {
-    flex-basis: 33%;
-  }
-  
-  .gallery a {
-    display: flex;
-  }
-  
-  .gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .lg-sub-html {
-    color: rgb(255, 255, 255);
-    font-size: 3rem;
-  }
- 
-  div .blokgd {position: relative; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    width: 80vmin; 
-    height: 80vmin; 
-    background: white; 
-    padding: 1vmin; 
-    border-radius: 5vmin;}
+.gallery a {
+  display: flex;
+}
 
+.gallery img {
+  width: 100%;
+  height: auto;
+}
 
-div.blokgd h2 {color: #000;}
+.lg-sub-html {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
 
-div .blokvideo {position: relative; 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  width: 87vmin; 
-  height: 87vmin; 
-  background: white; 
-  border-radius: 5vmin;}
+div .blokgd {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vmin;
+  height: 80vmin;
+  background: white;
+  padding: 1vmin;
+  border-radius: 5vmin;
+}
 
-  video {
-    background-color: rgb(255, 255, 255);
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    padding: 1px;
-    width: 270px;
-  }
-  
+div.blokgd h2 {
+  color: #000;
+}
+
+div .blokvideo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 87vmin;
+  height: 87vmin;
+  background: white;
+  border-radius: 5vmin;
+}
+
+video {
+  background-color: rgb(255, 255, 255);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  padding: 1px;
+  width: 270px;
+}

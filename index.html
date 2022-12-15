@@ -25,9 +25,37 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"
   />
 
+
+  <link rel="stylesheet" href="menu.css"/>
+
       <link rel="stylesheet" href="css/style.css" />
+
+      
   </head>
   <body>
+
+
+    <div class="open" id="mobile-menu-content">
+      <div>
+        <ul>
+          <li>
+            <a href="#aboutme">ПРО МЕНЕ</a>
+          </li>
+          <li>
+            <a href="#interests">МОЇ ІНТЕРЕСИ В ДИЗАЙНІ</a>
+          </li>
+    
+          <li>
+            <a href="#portfolio">ПОРТФОЛІО</a>
+          </li>
+          <li>
+            <a href="#connection">ЗВ'ЯЗОК</a>
+          </li>
+        </ul>    
+      </div>
+    </div>
+    
+    
     
     <div class="header">
       <div class="navbar">
@@ -47,6 +75,13 @@
         <a href="#connection">ЗВ'ЯЗОК</a>
       </li>
     </ul>
+
+    <div class="mobile-menu open">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
   </div>
 </div>
 
@@ -168,6 +203,11 @@
 
 </div>
 
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/menuspy@latest/dist/menuspy.min.js"></script>
 <script>
     var elm = document.querySelector(".header .menu");
@@ -183,6 +223,10 @@
   });
 </script>
   
+
+<script src="js/mobilemenu.js"></script>
+
+
 <script src="script.js"></script>
 
 
