@@ -344,5 +344,7 @@ video {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   padding: 1px;
-  width: 270px;
+  width: 45%;
+
+  justify-content: center;
 }

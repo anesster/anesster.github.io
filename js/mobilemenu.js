@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	menu_content.appendChild(menu_content_overflow);
   
 	let navigation_clone = document
-	  .querySelector(".header .navbar > ul")
+	  .querySelector(" .header .navbar > ul")
 	  .cloneNode(true);
   
 	navigation_clone.classList.remove("menu");
