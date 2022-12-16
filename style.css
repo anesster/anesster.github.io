@@ -7,6 +7,8 @@ body {
 }
 
 .header {
+
+  min-width: 100vh;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -72,7 +74,7 @@ html {
   padding-top: 40px;
 }
 
-.START {
+.start {
   min-height: 100vh;
   min-width: 100vh;
   display: flex;
@@ -133,6 +135,7 @@ p {
   font-size: 18px;
   color: #ffffff;
   margin-left: 150px;
+
 }
 h2 {
   margin-top: 50px;
@@ -163,10 +166,7 @@ ol {
   margin-right: 215px;
 }
 
-.videogo {
-  margin-right: 112pt;
-  color: #000;
-}
+
 
 .hidden {
   opacity: 0;
@@ -199,12 +199,13 @@ ol {
 }
 
 .section1-text {
-  width: 600px;
+  
+  width: 590px;
 }
 
 .oneimg {
   height: 600px;
-  margin-right: 80px;
+  text-align: left;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
@@ -222,6 +223,9 @@ ol {
   filter: none;
   -webkit-filter: grayscale(0);
 }
+
+.section {  min-height: 100vh;
+  min-width: 100vh;}
 
 .section1-content {
   display: flex;
@@ -330,21 +334,22 @@ div.blokgd h2 {
 div .blokvideo {
   position: relative;
   display: flex;
-  flex-direction: column;
+ 
   align-items: center;
   justify-content: center;
-  width: 87vmin;
-  height: 87vmin;
+  width: 85vmin;
+  height: 85vmin;
   background: white;
   border-radius: 5vmin;
 }
 
 video {
+
   background-color: rgb(255, 255, 255);
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-  padding: 1px;
-  width: 45%;
-
+  padding: 3px;
+  width: 47%;
+  border-radius: 3vmin;
   justify-content: center;
 }
