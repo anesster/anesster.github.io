@@ -83,7 +83,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   backface-visibility: hidden;
-  animation: slideBg 10s linear infinite s;
+  animation: slideBg 10s linear infinite 0s;
   animation-timing-function: ease-in-out;
   background-image: url(./slideshow/31.jpg);
 }
