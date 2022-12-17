@@ -4,11 +4,10 @@
 body {
   margin: 0;
   font-family: "Andika", sans-serif;
+
 }
 
 .header {
-
-  min-width: 100vh;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -67,7 +66,7 @@ html {
 .section {
   display: flex;
   min-height: 100vh;
-  width: 100%;
+
   /* align-items: center; */
   font-size: 3em; /* 200% */
   justify-content: center;
@@ -76,7 +75,6 @@ html {
 
 .start {
   min-height: 100vh;
-  min-width: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,17 +132,18 @@ html {
 p {
   font-size: 18px;
   color: #ffffff;
-  margin-left: 150px;
+  display: block;
+
+
 
 }
 h2 {
-  margin-top: 50px;
   font-size: 35px;
   color: #ffffff;
+  text-align: center;
 }
 
 .start1 {
-  margin-left: 150px;
 }
 
 .hello {
@@ -163,7 +162,6 @@ ul {
 ol {
   color: rgb(0, 0, 0);
   font-size: 18px;
-  margin-right: 215px;
 }
 
 
@@ -174,8 +172,7 @@ ol {
 .console-container {
   font-size: 5em;
   text-align: center;
-  height: 200px;
-  width: 600px;
+
   display: block;
 
   color: rgb(255, 255, 255);
@@ -200,11 +197,12 @@ ol {
 
 .section1-text {
   
-  width: 590px;
+  padding-left: 10vw;
+  max-width: 40rem;
 }
 
 .oneimg {
-  height: 600px;
+  width: 50vmin;
   text-align: left;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -224,8 +222,6 @@ ol {
   -webkit-filter: grayscale(0);
 }
 
-.section {  min-height: 100vh;
-  min-width: 100vh;}
 
 .section1-content {
   display: flex;
@@ -297,7 +293,7 @@ a:link {
 }
 
 .gallery-item {
-  flex-basis: 33%;
+  flex-basis: 33.33%;
 }
 
 .gallery a {
@@ -340,7 +336,7 @@ div .blokvideo {
   width: 85vmin;
   height: 85vmin;
   background: white;
-  border-radius: 5vmin;
+  border-radius: 7vmin;
 }
 
 video {
