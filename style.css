@@ -4,7 +4,6 @@
 body {
   margin: 0;
   font-family: "Andika", sans-serif;
-
 }
 
 .header {
@@ -133,9 +132,6 @@ p {
   font-size: 18px;
   color: #ffffff;
   display: block;
-
-
-
 }
 h2 {
   font-size: 35px;
@@ -163,8 +159,6 @@ ol {
   color: rgb(0, 0, 0);
   font-size: 18px;
 }
-
-
 
 .hidden {
   opacity: 0;
@@ -196,7 +190,6 @@ ol {
 }
 
 .section1-text {
-  
   padding-left: 10vw;
   max-width: 40rem;
 }
@@ -221,7 +214,6 @@ ol {
   filter: none;
   -webkit-filter: grayscale(0);
 }
-
 
 .section1-content {
   display: flex;
@@ -330,7 +322,7 @@ div.blokgd h2 {
 div .blokvideo {
   position: relative;
   display: flex;
- 
+
   align-items: center;
   justify-content: center;
   width: 85vmin;
@@ -340,7 +332,6 @@ div .blokvideo {
 }
 
 video {
-
   background-color: rgb(255, 255, 255);
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);

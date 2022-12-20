@@ -1,0 +1,15 @@
+@media (max-width: 1024px) {
+  .gallery-item {
+    flex-basis: 50%;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  #social-footer ul li {
+    display: inline;
+    padding: 10px;
+    font-size: 5vw;
+  }
+}
